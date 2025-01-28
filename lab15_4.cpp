@@ -22,7 +22,7 @@ int main(){
 
 void shuffle(int &a, int &b, int &c, int &d){
     int S[] = {a,b,c,d};
-    for(int i = 0; i < 3; i++){
+    for(int i = 0; i < 4; i++){
         int x = rand()%4;
         int y = S[i];
         S[i] = S[x];
